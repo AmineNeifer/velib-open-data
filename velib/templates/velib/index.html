@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Landing Page</title>
+    {% load static %}
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'velib/style.css' %}"
+    />
+  </head>
+  <body>
+    <div class="center">
+      <a href="http://127.0.0.1:8000/velib/viz3/" class="previous"
+        >&laquo; PREVIOUS</a
+      >
+      <a href="http://127.0.0.1:8000/velib/viz1" class="next">NEXT &raquo;</a>
+    </div>
+    <img
+      src="{% static 'velib/quanticfy_logo.png' %}"
+      alt="The Quantic Factory logo"
+      class="img-center"
+    />
+  </body>
+</html>
